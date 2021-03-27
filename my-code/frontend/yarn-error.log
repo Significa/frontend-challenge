@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios
+
+PATH: 
+  C:\Program Files\PowerShell\7-preview;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\Program Files\Yori;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vitor\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\CMake\bin;C:\Program Files\PuTTY\;C:\Go\bin;C:\Users\vitor\.cargo\bin;C:\Users\vitor\AppData\Local\Microsoft\WindowsApps;C:\Users\vitor\.deno\bin;C:\Users\vitor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vitor\AppData\Roaming\nvm;C:\Program Files\nodejs;c:\Users\Vitor\AppData\Local\Android\Sdk\platform-tools;C:\Users\vitor\AppData\Roaming\nvm\v10.15.0;C:\Users\vitor\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\src\flutter\bin;C:\src\genie;C:\src\ngrok;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\JetBrains\CLion 2020.2.3\bin;;D:\MinGW\bin;C:\Users\vitor\go\bin;C:\src\ffmpeg\bin;C:\Program Files (x86)\GnuWin32\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\dev\frontend-challenge\my-code\frontend\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "scripts": {
+      "start": "snowpack dev",
+      "build": "snowpack build",
+      "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    },
+    "devDependencies": {
+      "@types/styled-components": "^5.1.9",
+      "react-icons": "^4.2.0",
+      "snowpack": "^3.0.1"
+    },
+    "dependencies": {
+      "@types/lodash": "^4.14.168",
+      "lodash": "^4.17.21",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router": "^5.2.0",
+      "react-router-dom": "^5.2.0",
+      "styled-components": "^5.2.1",
+      "styled-tools": "^1.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

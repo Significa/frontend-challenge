@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-heart-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide-presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8.icons" transform="translate(-570.000000, -344.000000)">
+            <g id="icon-heart-grey" transform="translate(570.000000, 344.000000)">
+                <rect id="Rectangle-13" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,5.7384007 C24.3159972,-3.87751835 26.3133219,14.4898505 12,20 C-2.31332192,15.570284 -0.31599724,-3.87751835 12,5.7384007 Z" id="Rectangle-12" stroke="#7A8C99" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

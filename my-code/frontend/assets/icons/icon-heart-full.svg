@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-heart-full</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide-presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8.icons" transform="translate(-610.000000, -344.000000)">
+            <g id="24x24/icon_heart" transform="translate(610.000000, 344.000000)">
+                <rect id="Rectangle-13" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,6.28384428 C24.3324939,-3.604485 26.3324939,15.2832147 12,20.9494617 C-2.33249393,16.3942559 -0.332493933,-3.604485 12,6.28384428 Z" id="Rectangle-12" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

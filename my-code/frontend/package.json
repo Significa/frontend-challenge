@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "web-test-runner \"src/__tests__/**/*.test.tsx\" --node-resolve",
+    "test:watch": "web-test-runner src/__tests__/**/*.test.tsx --watch"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/pages/**/*.tsx",
+      "src/components/**/*.tsx",
+      "src/hooks/**/*.tsx"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/support/setupTests.js"
+    ]
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "@snowpack/web-test-runner-plugin": "^0.2.0",
+    "@testing-library/react": "^11.0.0",
+    "@types/chai": "^4.2.15",
+    "@types/lodash": "^4.14.168",
+    "@types/react-router": "^5.1.12",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.9",
+    "@web/test-runner": "^0.12.0",
+    "axios-mock-adapter": "^1.19.0",
+    "chai": "^4.2.0",
+    "snowpack": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/mocha": "^8.2.2",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "polished": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-lottie": "^1.2.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "snowpack": "^3.0.1",
+    "styled-components": "^5.2.1",
+    "styled-tools": "^1.7.2"
+  }
+}
